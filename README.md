@@ -15,12 +15,11 @@ Memory is the product: the **same prompt and model** is run with memory OFF (gen
 
 ## Run it
 ```bash
-git clone <your-repo-url> && cd auditmemory
+git clone https://github.com/DEEPAK-T07/auditmemory.git && cd auditmemory
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env        # add HINDSIGHT_API_KEY and GROQ_API_KEY
+cp .env.example .env        # add GEMINI_API_KEY (or GROQ_API_KEY / HINDSIGHT_API_KEY)
 python scripts/smoke_test.py
-python -m src.ingest        # one-time: loads history into Hindsight (wait ~1 min)
 streamlit run app.py
 ```
 No keys? The app still runs on a local keyword-memory fallback with an offline template (clearly labelled in the UI), so you can click through the flow.
