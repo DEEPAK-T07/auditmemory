@@ -1,0 +1,56 @@
+[
+  {
+    "id": "CT-01",
+    "date": "2025-06-12",
+    "type": "control test",
+    "text": "Control C-06 backup restore test on 2025-06-12: Pass. Restore log attached."
+  },
+  {
+    "id": "CT-02",
+    "date": "2025-12-10",
+    "type": "control test",
+    "text": "Control C-06 backup restore test on 2025-12-10: Pass. This is the most recent restore test on record; none has been logged since."
+  },
+  {
+    "id": "CT-03",
+    "date": "2026-04-08",
+    "type": "control test",
+    "text": "Control C-02 Q1 2026 finance database access review on 2026-04-08: Pass, timestamped screenshots attached."
+  },
+  {
+    "id": "CT-04",
+    "date": "2026-07-09",
+    "type": "control test",
+    "text": "Control C-02 Q2 2026 finance database access review on 2026-07-09: Pass, timestamped screenshots attached."
+  },
+  {
+    "id": "CT-05",
+    "date": "2026-10-15",
+    "type": "control test",
+    "text": "Control C-02 Q3 2026 finance database access review was due 2026-10-15: NOT PERFORMED, no record exists."
+  },
+  {
+    "id": "CT-06",
+    "date": "2026-03-20",
+    "type": "control test",
+    "text": "Control C-04 vendor access review on 2026-03-20: Partial. 9 of 11 vendors reviewed; 2 payment processors missing."
+  },
+  {
+    "id": "CT-07",
+    "date": "2026-09-30",
+    "type": "control test",
+    "text": "Control C-07 laptop encryption check on 2026-09-30: Pass, timestamped MDM screenshots attached."
+  },
+  {
+    "id": "CT-08",
+    "date": "2026-10-31",
+    "type": "control test",
+    "text": "Control C-08 monthly vulnerability scan on 2026-10-31: Pass. All critical issues fixed within 14 days."
+  },
+  {
+    "id": "CT-09",
+    "date": "2026-09-18",
+    "type": "control test",
+    "text": "Control C-03 offboarding sample on 2026-09-18: Pass. 25 of 25 leavers had access removed within 24 hours."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "F-2024-01",
+    "date": "2024-10-18",
+    "type": "audit finding",
+    "text": "2024 SOC 2 audit (lead auditor Priya Nair, Larkspur Assurance), severity High: the quarterly user access review for the finance database was not performed during 2024."
+  },
+  {
+    "id": "F-2024-02",
+    "date": "2024-10-18",
+    "type": "audit finding",
+    "text": "2024 SOC 2 audit (Priya Nair), severity High: no vendor access review was performed for third-party payment processor integrations (control C-04)."
+  },
+  {
+    "id": "F-2024-03",
+    "date": "2024-10-18",
+    "type": "audit finding",
+    "text": "2024 SOC 2 audit (Priya Nair), severity Medium: offboarding access removal took up to 6 days for 4 of 25 sampled leavers."
+  },
+  {
+    "id": "F-2025-01",
+    "date": "2025-10-21",
+    "type": "audit finding",
+    "text": "2025 SOC 2 audit (Priya Nair), severity High, REPEAT FINDING: vendor access review again not performed for 3 payment processor integrations onboarded after the Feb 2025 one-time review. This is the second consecutive year the vendor access review control failed (see F-2024-02)."
+  },
+  {
+    "id": "F-2025-02",
+    "date": "2025-10-21",
+    "type": "audit finding",
+    "text": "2025 SOC 2 audit (Priya Nair), severity High: the auditor could not verify remediation of F-2024-01. Ticket REM-14 was marked Done but no evidence was provided. Carried forward as an open item."
+  },
+  {
+    "id": "F-2025-03",
+    "date": "2025-10-21",
+    "type": "audit finding",
+    "text": "2025 SOC 2 audit (Priya Nair), severity Medium: laptop encryption evidence was supplied as a CSV export from the MDM and was rejected. Priya Nair requires timestamped screenshots taken directly from the MDM console."
+  },
+  {
+    "id": "F-2025-04",
+    "date": "2025-10-21",
+    "type": "audit finding",
+    "text": "2025 SOC 2 audit (Priya Nair), severity Low: security awareness training completion was 91% against a 95% target."
+  },
+  {
+    "id": "F-2025-05",
+    "date": "2025-10-21",
+    "type": "audit finding",
+    "text": "2025 SOC 2 audit (Priya Nair), severity Low: the semiannual firewall rule review was completed 2 weeks late."
+  },
+  {
+    "id": "A-01",
+    "date": "2025-10-21",
+    "type": "auditor note",
+    "text": "Auditor profile: Priya Nair (Larkspur Assurance) led the 2024 and 2025 audits. She accepts only timestamped screenshots taken directly from source consoles, rejects CSV or spreadsheet exports, and samples 25 users or records per control."
+  }
+]

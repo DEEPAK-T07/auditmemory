@@ -1,0 +1,56 @@
+[
+  {
+    "id": "REM-09",
+    "date": "2025-03-04",
+    "type": "remediation ticket",
+    "text": "Ticket REM-09 (offboarding delays, F-2024-03), owner Anita Desai. Closed 2025-03-04 with evidence: HRIS to identity provider auto-sync screenshots attached."
+  },
+  {
+    "id": "REM-11",
+    "date": "2025-02-28",
+    "type": "remediation ticket",
+    "text": "Ticket REM-11 (vendor access review, F-2024-02), owner Vikram Shah. Closed 2025-02-28 with evidence: a spreadsheet showing a one-time review of 6 vendors. No recurring schedule was set up."
+  },
+  {
+    "id": "REM-14",
+    "date": "2025-05-20",
+    "type": "remediation ticket",
+    "text": "Ticket REM-14 (finance database quarterly access review, F-2024-01), owner Rahul Menon. Closed 2025-05-20 with status Done. The evidence field is empty: no files were attached."
+  },
+  {
+    "id": "REM-17",
+    "date": "2025-11-20",
+    "type": "remediation ticket",
+    "text": "Ticket REM-17 (laptop encryption evidence, F-2025-03), owner Meera Iyer. Closed 2025-11-20 after timestamped MDM screenshots were accepted by the auditor."
+  },
+  {
+    "id": "REM-18",
+    "date": "2026-03-15",
+    "type": "remediation ticket",
+    "text": "Ticket REM-18 (repeat vendor access review finding, F-2025-01), owner Vikram Shah. Status In Progress, last updated 2026-03-15. No recurring vendor review schedule has been evidenced."
+  },
+  {
+    "id": "REM-19",
+    "date": "2025-10-28",
+    "type": "remediation ticket",
+    "text": "Ticket REM-19 (unverifiable finance database access review, F-2025-02), owner Rahul Menon. Status Open since 2025-10-28. Plan: re-perform and evidence the quarterly reviews."
+  },
+  {
+    "id": "REM-21",
+    "date": "2025-12-02",
+    "type": "remediation ticket",
+    "text": "Ticket REM-21 (late firewall review, F-2025-05), owner Rahul Menon. Closed 2025-12-02 with evidence: signed review log and rule export screenshots."
+  },
+  {
+    "id": "REM-22",
+    "date": "2026-01-30",
+    "type": "remediation ticket",
+    "text": "Ticket REM-22 (training completion, F-2025-04), owner Anita Desai. Closed 2026-01-30 with LMS screenshot showing 97% completion."
+  },
+  {
+    "id": "REM-23",
+    "date": "2026-08-14",
+    "type": "remediation ticket",
+    "text": "Ticket REM-23 (password policy v4.0 rollout), owner Meera Iyer. Identity provider configuration updated 2026-08-14 (14 character minimum, MFA for all production access). Sub-task 're-collect password and MFA evidence dated after 2026-08-01' is still Open."
+  }
+]

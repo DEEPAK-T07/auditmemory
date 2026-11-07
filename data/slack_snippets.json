@@ -1,0 +1,56 @@
+[
+  {
+    "id": "S-01",
+    "date": "2025-05-20",
+    "type": "slack message",
+    "text": "#it-ops, Rahul Menon, 2025-05-20: closing REM-14, access review is done, will upload the evidence later, auditors are not here until October."
+  },
+  {
+    "id": "S-02",
+    "date": "2025-06-02",
+    "type": "slack message",
+    "text": "#it-ops, Meera Iyer, 2025-06-02: @Rahul REM-14 still has no attachment? No reply followed."
+  },
+  {
+    "id": "S-03",
+    "date": "2025-10-23",
+    "type": "slack message",
+    "text": "#compliance, Vikram Shah, 2025-10-23: Priya says the vendor review is a repeat finding. Two years in a row, leadership will not be happy."
+  },
+  {
+    "id": "S-04",
+    "date": "2025-10-24",
+    "type": "slack message",
+    "text": "#compliance, Meera Iyer, 2025-10-24: Priya rejected our CSV export for encryption. She wants timestamped screenshots from the MDM console, same as she asked for last year."
+  },
+  {
+    "id": "S-05",
+    "date": "2026-06-15",
+    "type": "slack message",
+    "text": "#it-ops, Rahul Menon, 2026-06-15: backup restore test is due but the staging cluster is being rebuilt, pushing it to next month."
+  },
+  {
+    "id": "S-06",
+    "date": "2026-08-03",
+    "type": "slack message",
+    "text": "#compliance, Meera Iyer, 2026-08-03: Password policy v4.0 is live. Heads up, all MFA and password evidence from before Aug 1 is stale for the audit."
+  },
+  {
+    "id": "S-07",
+    "date": "2026-09-22",
+    "type": "slack message",
+    "text": "#compliance, Vikram Shah, 2026-09-22: New vendor policy means quarterly reviews for payment vendors. We have not done a full one since March."
+  },
+  {
+    "id": "S-08",
+    "date": "2026-10-16",
+    "type": "slack message",
+    "text": "#it-ops, Rahul Menon, 2026-10-16: Q3 finance DB access review slipped, will do it after the release."
+  },
+  {
+    "id": "S-09",
+    "date": "2026-11-02",
+    "type": "slack message",
+    "text": "#compliance, Anita Desai, 2026-11-02: Offboarding sample looks clean, evidence uploaded with screenshots."
+  }
+]

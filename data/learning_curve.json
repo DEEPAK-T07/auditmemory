@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "backend": "local",
+    "llm": "Groq gemini-3.1-pro-preview",
+    "questions": [
+      "What should I worry about before the audit?",
+      "Which past findings might repeat this year?",
+      "What evidence should we prepare and in what format?"
+    ],
+    "total_traps": 5
+  },
+  "stages": [
+    {
+      "pct": 0,
+      "records": 0,
+      "caught": 0,
+      "traps": {
+        "T1 REM-14 closed without evidence": false,
+        "T2 Password policy change (Aug 2026)": false,
+        "T3 Vendor review failed 2 years running": false,
+        "T4 Auditor wants screenshots (Priya)": false,
+        "T5 Backup restore test overdue": false
+      }
+    },
+    {
+      "pct": 25,
+      "records": 14,
+      "caught": 1,
+      "traps": {
+        "T1 REM-14 closed without evidence": false,
+        "T2 Password policy change (Aug 2026)": false,
+        "T3 Vendor review failed 2 years running": true,
+        "T4 Auditor wants screenshots (Priya)": false,
+        "T5 Backup restore test overdue": false
+      }
+    },
+    {
+      "pct": 50,
+      "records": 28,
+      "caught": 4,
+      "traps": {
+        "T1 REM-14 closed without evidence": true,
+        "T2 Password policy change (Aug 2026)": false,
+        "T3 Vendor review failed 2 years running": true,
+        "T4 Auditor wants screenshots (Priya)": true,
+        "T5 Backup restore test overdue": true
+      }
+    },
+    {
+      "pct": 75,
+      "records": 43,
+      "caught": 4,
+      "traps": {
+        "T1 REM-14 closed without evidence": true,
+        "T2 Password policy change (Aug 2026)": false,
+        "T3 Vendor review failed 2 years running": true,
+        "T4 Auditor wants screenshots (Priya)": true,
+        "T5 Backup restore test overdue": true
+      }
+    },
+    {
+      "pct": 100,
+      "records": 57,
+      "caught": 4,
+      "traps": {
+        "T1 REM-14 closed without evidence": true,
+        "T2 Password policy change (Aug 2026)": true,
+        "T3 Vendor review failed 2 years running": true,
+        "T4 Auditor wants screenshots (Priya)": false,
+        "T5 Backup restore test overdue": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "C-01",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC6.1 Authentication: all staff must authenticate with a password meeting policy plus MFA. Owner: Meera Iyer (IT Security). Evidence: identity provider configuration screenshots."
+  },
+  {
+    "id": "C-02",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC6.2 Quarterly access review: production and finance database user access must be reviewed every quarter and signed off. Owner: Rahul Menon (IT Ops). Evidence: reviewer sign-off plus timestamped console screenshots."
+  },
+  {
+    "id": "C-03",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC6.3 Offboarding: access of departed employees must be removed within 24 hours. Owner: Anita Desai (HR). Evidence: HRIS and identity provider ticket trail."
+  },
+  {
+    "id": "C-04",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC9.2 Vendor access review: every third-party vendor with access to production or payment systems must be reviewed. Owner: Vikram Shah (Vendor Management). Evidence: vendor list with approval status."
+  },
+  {
+    "id": "C-05",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control A1.2 Backups: production databases are backed up daily with 35-day retention. Owner: Rahul Menon. Evidence: backup job reports."
+  },
+  {
+    "id": "C-06",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control A1.3 Backup restore test: a full restore of the production database must be tested at least every 6 months. Owner: Rahul Menon. Evidence: restore log plus verification screenshot."
+  },
+  {
+    "id": "C-07",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC6.7 Device encryption: all company laptops must have full-disk encryption. Owner: Meera Iyer. Evidence: MDM compliance screenshots."
+  },
+  {
+    "id": "C-08",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC7.1 Vulnerability management: infrastructure is scanned monthly and critical issues fixed within 14 days. Owner: Meera Iyer."
+  },
+  {
+    "id": "C-09",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC7.2 Incident response: a tabletop exercise is run once a year. Owner: Sana Qureshi (Engineering Manager)."
+  },
+  {
+    "id": "C-10",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC8.1 Change management: every production change needs an approved pull request. Owner: Sana Qureshi."
+  },
+  {
+    "id": "C-11",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC1.4 Security awareness: all staff complete training annually, target 95% completion. Owner: Anita Desai."
+  },
+  {
+    "id": "C-12",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC3.2 Risk assessment: a formal risk assessment is performed annually. Owner: Meera Iyer."
+  },
+  {
+    "id": "C-13",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC6.6 Firewall review: firewall rules are reviewed every 6 months. Owner: Rahul Menon."
+  },
+  {
+    "id": "C-14",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC7.3 Logging: security logs are retained for 12 months. Owner: Meera Iyer."
+  },
+  {
+    "id": "C-15",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control P6.1 Data deletion: customer data is deleted within 30 days after contract end. Owner: Sana Qureshi."
+  },
+  {
+    "id": "C-16",
+    "date": "2025-01-15",
+    "type": "control",
+    "text": "Control CC5.3 Policy review: every security policy is reviewed annually. Owner: Meera Iyer."
+  }
+]
