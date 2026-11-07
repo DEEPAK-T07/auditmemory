@@ -1,23 +1,37 @@
 import os
+
+# 1. Load from .env file if running locally
 try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
     pass
 
-HINDSIGHT_API_URL = os.getenv("HINDSIGHT_API_URL", "https://api.hindsight.vectorize.io")
-HINDSIGHT_API_KEY = os.getenv("HINDSIGHT_API_KEY", "")
-BANK_ID = os.getenv("BANK_ID", "auditmemory-northwind")
+# Helper to look up secrets from os.environ first, then streamlit.secrets if on Streamlit Cloud
+def get_secret(key, default=""):
+    val = os.getenv(key)
+    if val:
+        return val
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets") and key in st.secrets:
+            return str(st.secrets[key])
+    except Exception:
+        pass
+    return default
+
+HINDSIGHT_API_URL = get_secret("HINDSIGHT_API_URL", "https://api.hindsight.vectorize.io")
+HINDSIGHT_API_KEY = get_secret("HINDSIGHT_API_KEY", "")
+BANK_ID = get_secret("BANK_ID", "auditmemory-northwind")
 
 # auto: Hindsight if an API key is set, else the local fallback.
-# Set MEMORY_BACKEND=hindsight for a self-hosted server (http://localhost:8888, no key).
-MEMORY_BACKEND = os.getenv("MEMORY_BACKEND") or ("hindsight" if HINDSIGHT_API_KEY else "local")
+MEMORY_BACKEND = get_secret("MEMORY_BACKEND") or ("hindsight" if HINDSIGHT_API_KEY else "local")
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-PRIMARY_MODEL = os.getenv("PRIMARY_MODEL", "gemini-3.1-pro-preview")
-FALLBACK_MODEL = os.getenv("FALLBACK_MODEL", "gemini-3.1-flash-lite-preview")
+GROQ_API_KEY = get_secret("GROQ_API_KEY", "")
+GEMINI_API_KEY = get_secret("GEMINI_API_KEY", "")
+PRIMARY_MODEL = get_secret("PRIMARY_MODEL", "gemini-3.1-pro-preview")
+FALLBACK_MODEL = get_secret("FALLBACK_MODEL", "gemini-3.1-flash-lite-preview")
 
-TODAY = os.getenv("DEMO_TODAY", "2026-11-07")
-AUDIT_START = os.getenv("AUDIT_START", "2026-12-07")
+TODAY = get_secret("DEMO_TODAY", "2026-11-07")
+AUDIT_START = get_secret("AUDIT_START", "2026-12-07")
 COMPANY = "Northwind Payments (120 employees, SOC 2 Type II)"
