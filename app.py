@@ -256,7 +256,6 @@ st.markdown("""
 <div class="hero-container">
     <div class="hero-title">
         <span>🛡️ AuditMemory</span>
-        <span style="font-size: 0.85rem; background: #059669; padding: 3px 10px; border-radius: 12px; font-weight: 600;">HACKATHON DEMO</span>
     </div>
     <div class="hero-subtitle">
         An AI Compliance & Audit Agent that remembers regulatory requirements, multi-year audit findings, remediation proofs, and control execution history to eliminate repeat audit failures.
